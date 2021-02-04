@@ -48,6 +48,7 @@ public class ExtentReportListener extends BasePage implements ITestListener{
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("User Name", "Ibrahim Miah");
+		extent.setSystemInfo("Machin", "macOS");
 		extent.setReportUsesManualConfiguration(true);
 
 		return extent;

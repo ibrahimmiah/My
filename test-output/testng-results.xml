@@ -2,20 +2,20 @@
 <testng-results ignored="2" total="4" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-03T13:50:51 EST" name="CRM_Pro" finished-at="2021-02-03T13:50:59 EST" duration-ms="8166">
+  <suite started-at="2021-02-03T14:15:20 EST" name="CRM_Pro" finished-at="2021-02-03T14:15:28 EST" duration-ms="7931">
     <groups>
     </groups>
-    <test started-at="2021-02-03T13:50:51 EST" name="Test" finished-at="2021-02-03T13:50:59 EST" duration-ms="8166">
+    <test started-at="2021-02-03T14:15:20 EST" name="Test" finished-at="2021-02-03T14:15:28 EST" duration-ms="7931">
       <class name="com.qa.crm.pro.test.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.crm.pro.test.LoginPageTest@35d019a3]" started-at="2021-02-03T13:50:51 EST" name="setUp" finished-at="2021-02-03T13:50:55 EST" duration-ms="3961" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.crm.pro.test.LoginPageTest@35d019a3]" started-at="2021-02-03T14:15:20 EST" name="setUp" finished-at="2021-02-03T14:15:23 EST" duration-ms="3762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="doLoginTest()[pri:1, instance:com.qa.crm.pro.test.LoginPageTest@35d019a3]" started-at="2021-02-03T13:50:55 EST" name="doLoginTest" finished-at="2021-02-03T13:50:59 EST" duration-ms="3535" status="PASS">
+        <test-method signature="doLoginTest()[pri:1, instance:com.qa.crm.pro.test.LoginPageTest@35d019a3]" started-at="2021-02-03T14:15:23 EST" name="doLoginTest" finished-at="2021-02-03T14:15:27 EST" duration-ms="3478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginTest -->
-        <test-method signature="dologinVerify()[pri:2, instance:com.qa.crm.pro.test.LoginPageTest@35d019a3]" started-at="2021-02-03T13:50:59 EST" name="dologinVerify" finished-at="2021-02-03T13:50:59 EST" duration-ms="7" status="FAIL">
+        <test-method signature="dologinVerify()[pri:2, instance:com.qa.crm.pro.test.LoginPageTest@35d019a3]" started-at="2021-02-03T14:15:27 EST" name="dologinVerify" finished-at="2021-02-03T14:15:27 EST" duration-ms="7" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected:<CRMPR> but was:<CRMPRO>]]>
@@ -59,7 +59,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dologinVerify -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.crm.pro.test.LoginPageTest@35d019a3]" started-at="2021-02-03T13:50:59 EST" name="tearDown" finished-at="2021-02-03T13:50:59 EST" duration-ms="136" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.crm.pro.test.LoginPageTest@35d019a3]" started-at="2021-02-03T14:15:27 EST" name="tearDown" finished-at="2021-02-03T14:15:28 EST" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
